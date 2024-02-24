@@ -1,0 +1,110 @@
+.container {
+    height: 100px;
+    width: 500px;
+}
+.Clock {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    border: 10px solid #3f0202;
+    border-radius: 50%
+
+}
+.Center {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-color: #dc1010;
+  border-radius: 50%;
+  top: 52%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+} 
+.hours, .minutes, .seconds {
+    transform-origin: bottom;
+    background-color: white !important; 
+    border-start-start-radius: 100px;
+    border-end-end-radius: 100px;
+}
+.hours {
+    border: 1px solid black;
+    width: -2%;
+    height: 13%;
+    position: absolute;
+    top: 38%;
+    left: 48.5%;
+}
+.minutes {
+    border: 1px solid green;
+    width: -2%;
+    height: 23%;
+    position: absolute;
+    top: 28%;
+    left: 48.5%;
+}
+.seconds {
+    border: 1px solid lightslategrey;
+    width: -2%;
+    height: 27%;
+    position: absolute;
+    top: 24%;
+    left: 48.5%;
+}
+.numbers{
+    font-size: x-large;
+    font-weight: bolder;
+    position: absolute;
+    color: black;
+
+}
+.one{
+    top: 9%;
+    left: 75%;
+}
+.two{
+    
+    top: 26%;
+    left: 90%;
+}
+.three{
+    top: 47%;
+    left: 94%; 
+}
+.four{
+    top: 68%;
+    left: 87%; 
+}
+.five{
+    bottom: 6%;
+    left: 183px;
+}
+
+.six{
+    bottom: -2%;
+    left: 48%;
+}
+.seven{
+    bottom: 6%;
+    left: 24%;
+}
+.eight{
+    bottom: 22%;
+    left: 7%;
+}
+.nine{
+    top: 46%;
+    left: 1%; 
+}
+.ten{
+    top: 24%;
+    left: 5%; 
+}
+.eleven{
+    top: 7%;
+    left: 20%; 
+}
+.twelve{
+    top: -2%;
+    left: 46%;
+}
